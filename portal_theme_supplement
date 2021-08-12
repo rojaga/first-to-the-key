@@ -1,0 +1,453 @@
+* Welcome Banner on landing */
+
+.landing-banner-container div[sn-atf-area="Welcome Banner"] > section.widget-banner {
+    margin-bottom: 0px;
+}
+
+/* adding gradient background for informatin links */
+.cont-grad {
+    background-image: linear-gradient(to bottom, #e8f0f2, #ecf3f4, #f1f7f6, #f6faf9, #fbfdfc);
+    padding-top:30px;
+}
+
+.landing-banner-container sp-page-row div div span div section.widget-banner div div.carousel.slide div.carousel-inner div.item {
+    background-position: center center;
+}
+
+.landing-banner-container .widget-banner .carousel-inner .item .carousel-caption h1:first-child {
+  font-size: 4.6rem;
+}
+
+.landing-banner-container .widget-banner .carousel-inner .item .carousel-caption.text-center.c-content.ng-scope {
+  width: unset;
+  color: $color-darkest;
+  text-shadow: unset;
+  text-align: left;
+}
+
+.dei-banner-container .widget-banner .carousel-inner .item .carousel-caption.text-center.c-content.ng-scope {
+/*  display: block;
+  top: 50px;
+  width: 50%;
+  text-shadow: unset;*/
+}
+/* banner height */
+.page-banner-height sp-page-row .sp-row-content .widget-banner .carousel-inner .item{
+  height: 170px;
+}
+.page-banner-height {
+  height: 160px;
+}
+/* banner height with text descriptions*/
+.banner-desc-height sp-page-row .sp-row-content .widget-banner .carousel-inner .item{
+  height: 250px;
+}
+
+.carousel-caption.text-center.c-content {
+    /*text-align: left;*/
+}
+
+/* info links row */
+.landing-page-info-links sp-page-row div div span div section div nav.panel-body {
+  padding: 0;
+}
+
+.landing-page-info-links .information-links-widget.show-bounding-box.show-background .panel .panel-body .a-list {
+  text-align: center;
+  color: #000000;
+  font-size: large;
+  padding: 15px;
+}
+
+/* center big buttons */
+
+.center-big-buttons .content-carousel-widget .item-start .carousel .item .c-content .top-content {
+    background-size: 25% !important;
+    background-position-y: 25% !important;
+}
+
+/*** Card link base styles ***/
+.card-link-anchor {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-decoration: none;
+    min-height: 235px;
+    padding: 15px;
+}
+
+/*.card-link-icon {
+  margin-bottom: 20px;
+}*/
+
+.card-link-text-container{
+ text-align: center;
+}
+
+.card-link-title {
+  color: $text-color;
+ width: 135px;
+  display:block;
+  margin:auto;
+}
+
+.card-link-text {
+  color: $text-muted;
+ width: 234px;
+  display:block;
+  margin: auto;
+}
+
+/*** Card link landing page styles ***/
+.card-link-container-landing .announcement-carousel-widget .carousel .carousel-inner .item {
+  padding:unset !important;
+  min-height: 235px !important;
+}
+
+.custom-card-link.first-card-link .card-link-icon {
+  color: $brand-success;
+  
+}
+
+.custom-card-link.second-card-link .card-link-icon {
+  color: $brand-danger;
+  
+}
+
+.custom-card-link.third-card-link .card-link-icon {
+  color: $brand-warning;
+  
+}
+
+/* frequent used app section */
+.frequent-apps-container .announcement-carousel-widget .panel {
+    border-top: 8px solid #007DB9;
+}
+
+.frequent-apps-container.m-b-xl .carousel-inner {
+  max-height: 195px;
+  min-height: 195px;
+}
+
+.freq-app-icon-text.block.text-center {
+  color: $text-color;
+}
+
+.freq-app-icon-text.block.text-center:hover {
+  color: unset; 
+}
+
+@media only screen and (max-width: 983px) {
+  .frequent-apps-container.m-b-xl .carousel-inner {
+    max-height: unset;
+  }
+}
+/********/
+
+.card-link-container-landing .col-md-4:nth-child(1) .panel.panel-default.b{
+  border-top: 8px solid $brand-success;
+}
+
+.card-link-container-landing .col-md-4:nth-child(2) .panel.panel-default.b {
+  border-top: 8px solid $brand-danger;
+}
+
+.card-link-container-landing .col-md-4:nth-child(3) .panel.panel-default.b {
+  border-top: 8px solid $brand-warning;
+}
+
+.kb-card-link-container .announcement-carousel-widget .carousel .carousel-inner .item {
+  padding:unset !important;
+}
+
+.kb-card-link-container .announcement-carousel-widget .carousel .carousel-inner .item .card-link-anchor {
+    min-height: 400px;
+    padding: unset;
+}
+
+.kb-card-link-container .announcement-carousel-widget .carousel .carousel-inner .item .card-link-title {
+    margin-bottom: 10px;
+ width: unset;
+ 
+}
+
+.kb-card-link-container .announcement-carousel-widget .carousel .carousel-inner .item .card-link-text-container{
+ padding: 20px 15px;
+}
+
+.kb-card-link-container .announcement-carousel-widget .carousel .carousel-inner .item .card-link-text {
+  width: 450px;
+}
+
+/*** Remove Author from displaying on KB Article ***/
+/*  Hides the author span  */
+.title-secondary-data > span.author {
+  display: none;
+}
+
+/* Hides the dot that comes after it but before the next item */
+.title-secondary-data > span.published > span:first-child {
+  display: none;
+}
+/********************/
+
+/******** Information Links - Starts with class "information-link-conatiner" on container *************/
+
+.container.information-link-container {
+  padding-top: 20px;
+  
+}
+
+.information-link-container sp-page-row div div span div section .panel-default {
+  min-height: 280px;
+}
+
+.information-link-container sp-page-row div div span div section .panel-default > .panel-heading {
+    border-bottom: none;
+}
+
+.information-link-container sp-page-row div div span div section .panel-default > .panel-heading .panel-title {
+    font-size: 20px;
+}
+
+.information-link-container sp-page-row div div:first-child span div section .panel-default > .panel-heading {
+    border-top: 8px solid #00bcf1;
+}
+
+.information-link-container sp-page-row div div:nth-child(2) span div section .panel-default > .panel-heading {
+    border-top: 8px solid #ec1c24;
+}
+
+.information-link-container sp-page-row div div:last-child span div section .panel-default > .panel-heading {
+    border-top: 8px solid #b2d235;
+}
+
+/******* DE&I Page ******/
+/********** Resource Cards **************/
+
+.resource-cards sp-page-row div div:first-child span div section div.item-start div.panel-body .carousel .carousel-inner .item .c-content-banner .banner-content .outer-container .inner-container h1, 
+.career-cards sp-page-row div div:first-child span div section div.item-start div.panel-body .carousel .carousel-inner .item .c-content-banner .banner-content .outer-container .inner-container h1 {
+  font-size: 3.6rem;
+}
+
+.resource-cards sp-page-row div div:first-child span div section div.item-start div.panel-body .carousel .carousel-inner .item .c-content-banner,
+.career-cards sp-page-row div div:first-child span div section div.item-start div.panel-body .carousel .carousel-inner .item .c-content-banner {
+  min-height: 80px;
+  height: 80px;
+}
+
+.resource-cards sp-page-row div div span div section.information-links-widget .panel-default div.panel-heading {
+  margin-bottom: 20px;
+}
+
+.resource-cards sp-page-row div div:first-child span div section.information-links-widget .panel-default div.panel-heading {
+  border-bottom: 8px solid #007db9 !important;
+}
+
+.resource-cards sp-page-row div div span div section.information-links-widget .panel-default div.panel-heading::before {
+ content: "";
+ display: block;
+ background-repeat: no-repeat;
+ width: 100%;
+ height: 52px;
+ background-position: center center;
+ margin-bottom: 20px;
+}
+
+.resource-cards sp-page-row div div:first-child span div section.information-links-widget .panel-default div.panel-heading::before {
+ background-image: url('learn_icon.png');
+}
+
+.resource-cards sp-page-row div div:nth-child(2) span div section.information-links-widget .panel-default div.panel-heading {
+  border-bottom: 8px solid #003A5D !important; /*#ec1c24 !important;*/
+}
+
+.resource-cards sp-page-row div div:nth-child(2) span div section.information-links-widget .panel-default div.panel-heading::before {
+ background-image: url('act_icon.png');
+ 
+}
+
+.resource-cards sp-page-row div div:nth-child(3) span div section.information-links-widget .panel-default div.panel-heading {
+  border-bottom: 8px solid #00bcf1 !important;
+}
+
+.resource-cards sp-page-row div div:nth-child(3) span div section.information-links-widget .panel-default div.panel-heading::before {
+ background-image: url('lead_icon.png');
+ 
+}
+
+.resource-cards section.information-links-widget .panel-default div.panel-heading .panel-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.resource-cards section.information-links-widget .panel-default nav.panel-body {
+  font-size: 18px;
+}
+
+/**** DE&I Strategy Banner *********
+div.container.dei-strategy-banner sp-page-row div div span div section.widget-banner .carousel-inner .item .carousel-caption {
+ right: unset;
+ left: 45%;
+}
+
+div.container.dei-strategy-banner sp-page-row div div span div section.widget-banner .carousel-inner .item {
+ background-size: unset;
+ background-position: 10%;
+}
+
+div.container.dei-strategy-banner .widget-banner .carousel-inner .item .carousel-caption h1:first-child {
+  font-size: 3.6rem;
+}
+*/
+
+/****** Styled content with bg positioned left and text positioned right ******/
+/****** use this class in container bg-left-text-right *******/
+
+.bg-left-text-right.text-bottom .content-carousel-widget .carousel-inner .item .c-content {
+  flex-direction: column;
+  border-right: 2px solid #ccc;
+}
+
+.bg-left-text-right .content-carousel-widget .carousel-inner .item .c-content {
+  flex-direction: unset;
+}
+
+.bg-left-text-right .content-carousel-widget .carousel-inner .item .c-content .top-content {
+  flex: unset; 
+  height: 250px;
+}
+
+.bg-left-text-right .content-carousel-widget .carousel-inner .item .c-content .bottom-content .widget-button {
+  background-color:  #ec1c24;
+  border-color: #b1181e;
+  border-radius: 0;
+}
+
+/****** Styled content with bg positioned right and text positioned left ******/
+/****** use this class in container bg-right-text-left *******/
+.bg-right-text-left .content-carousel-widget .carousel-inner .item .c-content {
+  flex-direction: unset;
+}
+
+.bg-right-text-left .content-carousel-widget .carousel-inner .item .c-content .top-content {
+  flex: unset;
+}
+
+.bg-right-text-left .content-carousel-widget .carousel-inner .item .c-content .bottom-content .widget-button {
+  /*background-color:  #ec1c24;*/
+  border-color: #b1181e;
+  border-radius: 0;
+}
+
+/******** connect section ***********/
+.resource-cards.connect-container .announcement-carousel-widget .carousel .carousel-inner .item {
+  min-height: 150px;
+}
+
+/************* Career Cards ****************/
+.career-cards sp-page-row div div:first-child span div section.information-links-widget .panel-default div.panel-heading h2 {
+  background-color: #007db9;
+ /* color: #ffffff;
+  font-size: 24px;
+  padding: 10px;
+  text-align: center;
+  */
+  
+}
+
+.career-cards sp-page-row div div span div section.information-links-widget .panel-default div.panel-heading h2{
+  color: #ffffff;
+  font-size: 24px;
+  padding: 10px;
+  text-align: center;
+}
+
+.career-cards sp-page-row div div span div section.information-links-widget .panel-default nav.panel-body {
+  font-size: 20px;
+  text-align: center;
+}
+
+.career-cards sp-page-row div div span div section.information-links-widget .panel-default nav.panel-body div a.a-list{
+  position: relative;
+}
+
+ .career-cards sp-page-row div div span div section.information-links-widget .panel-default nav.panel-body div a.a-list::before {
+ content: " \2022";
+   display: inline;
+}
+
+.career-cards sp-page-row div div:nth-child(2) span div section.information-links-widget .panel-default div.panel-heading h2{
+  background-color: #003A5D;
+}
+
+.career-cards sp-page-row div div:nth-child(3) span div section.information-links-widget .panel-default div.panel-heading h2{
+  background-color: #00bcf1;
+}
+
+.career-cards sp-page-row div div:nth-child(4) span div section.information-links-widget .panel-default div.panel-heading h2{
+  background-color: #06618c;
+}
+
+/************* Career Cards end ************/
+
+/********* Knowledge **********************/
+
+.author.pad-right {
+  display: none;
+  
+}
+
+.author.pad-right + span > span:first-child {
+ display: none;
+}
+/********* Knowledge end ******************/
+
+/**********Page Section Photos *********/
+.page-section-photos .announcement-carousel-widget .carousel .carousel-inner .item {
+ /* padding:unset !important;*/
+ min-height: 0px !important;
+ margin-bottom: -20px; 
+}
+.page-section-photo .announcement-carousel-widget .carousel .carousel-inner .item {
+ /* padding:unset !important;*/
+  min-height: 130px !important;
+}
+.page-section-photos .panel-heading .panel-title {
+  font-size: 18px;
+  margin-bottom:-10px;
+}
+.psp-margin{
+  margin-top: 30px;
+}
+.psp-margin .announcement-carousel-widget .carousel .carousel-inner .item {
+  margin-top: 10px;
+}
+.psp-margin section.information-links-widget .panel-default div.panel-heading {
+  margin-top: 10px;
+}
+
+/***** Page Section Photo End ************/
+
+  .grid-apps {
+ display: grid;
+    grid-template-columns: 100px auto;
+    justify-content: space-evenly;
+}
+/********** Help & Support shadow boxes ********/
+.hs-box {
+  padding-left: 10px;
+  margin-left: 10px;
+  background-color: white;
+width: 250px;
+  height: 225px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.grey-bg-height .announcement-carousel-widget .carousel .carousel-inner .item {
+ /* padding:unset !important;*/
+ min-height: 0px !important;
+ margin-bottom: 0px; 
+}
+/************** End of Help & Support ********/
