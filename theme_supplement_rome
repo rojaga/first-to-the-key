@@ -1,0 +1,10 @@
+/*** Remove Author from displaying on KB Article ***/
+/*  Hides the author span  */
+.title-secondary-data > span.author {
+  display: none;
+}
+
+/* Hides the dot that comes after it but before the next item */
+.title-secondary-data > span.published > span.pad-right {
+  display: none;
+}
