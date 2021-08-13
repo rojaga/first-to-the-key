@@ -1,0 +1,8 @@
+/*  Hides the author span  */
+.title-secondary-data > span.author.pad-right.text-nowrap {
+  display: none;
+}
+/* Hides the dot that comes after it but before the next item */
+.title-secondary-data > span.published > span:first-child {
+  display: none;
+}
